@@ -33,8 +33,6 @@ public void setBombs()
         bCol = (int)(Math.random()*20);
         if(!bombs.contains(buttons[bRow][bCol]))
             bombs.add(buttons[bRow][bCol]);
-        System.out.print(bRow+1 + " ");
-        System.out.println(bCol+1);
     }
 }
 
