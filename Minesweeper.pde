@@ -41,7 +41,7 @@ public void setBombs()
 public void draw ()
 {
     background( 0 );
-    if(isWon()||true)
+    if(isWon())
         displayWinningMessage();
 
 }
